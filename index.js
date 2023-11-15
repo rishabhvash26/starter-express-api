@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-app.all('/', (req, res) => {
+app.use('/Rishabh', (req, res) => {
     console.log("Just got a request!")
     res.send('Hi Rishabh!')
 })
